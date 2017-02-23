@@ -1,0 +1,19 @@
+{{#each family}}
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{name}}</h3>
+		</div>
+		<div class="panel-body">
+		Age: {{age}}
+		</div>
+		<div class="panel-body">
+		Gender: {{gender}}
+		</div>
+		<div class="panel-body">
+		Skills: {{skills}}
+		</div>
+		<button type="button" class="btn btn-secondary delete" id={{id}}>Delete</button>
+	</div>
+
+{{/each}}
